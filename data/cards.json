@@ -1,0 +1,118 @@
+{
+  "game": "CONTAINMENT",
+  "subtitle": "Authority vs. Ruin — Starter Decks v0.1",
+  "decks": [
+    {
+      "id": "authority",
+      "name": "AUTHORITY",
+      "tagline": "SECURE. CONTAIN. PRESERVE.",
+      "colors": { "primary": "#1c3a5e", "accent": "#5fa8d3", "paper": "#eef3f7" },
+      "sections": [
+        {
+          "name": "Personnel",
+          "cards": [
+            { "qty": 4, "name": "Site Security Officer", "cost": 2, "typeLine": "Personnel — Security", "power": 2, "durability": 3, "text": "When deployed, if Breach is 3+, Suppress 1 target Anomaly." },
+            { "qty": 3, "name": "Containment Specialist", "cost": 3, "typeLine": "Personnel — Specialist", "power": 2, "durability": 4, "text": "Your Contain costs cost 1 less Energy." },
+            { "qty": 3, "name": "Field Researcher", "cost": 2, "typeLine": "Personnel — Scientist", "power": 1, "durability": 3, "text": "Whenever you Contain an Anomaly, gain 1 Research." },
+            { "qty": 2, "name": "Tactical Response Agent", "cost": 3, "typeLine": "Personnel — Agent", "power": 3, "durability": 3, "text": "Rapid Deployment. When deployed, you may Exhaust target Anomaly with Threat 2 or less." },
+            { "qty": 2, "name": "Combat Medic", "cost": 2, "typeLine": "Personnel — Medic", "power": 1, "durability": 4, "text": "Exhaust: Restore 1 Stability. If Breach is 5+, restore 2 instead." },
+            { "qty": 2, "name": "Site Engineer", "cost": 3, "typeLine": "Personnel — Engineer", "power": 2, "durability": 3, "text": "Exhaust: Ready a Facility. Use only once each turn." },
+            { "qty": 2, "name": "Containment Team Alpha-9", "cost": 4, "typeLine": "Personnel — Task Force", "power": 4, "durability": 4, "text": "When deployed, Suppress 2 target Anomaly. Whenever Alpha-9 helps Contain an Anomaly, Stabilize 1." },
+            { "qty": 1, "name": "Director Evelyn Voss", "cost": 5, "typeLine": "Unique Personnel — Director", "power": 3, "durability": 5, "unique": true, "text": "Other Personnel you control get +0/+1. The first time each turn you Stabilize, draw a card." },
+            { "qty": 1, "name": "Chief Containment Officer Hale", "cost": 5, "typeLine": "Unique Personnel — Officer", "power": 4, "durability": 5, "unique": true, "text": "Guard. Contained Anomalies you control cannot be Released by opponents while Hale is Ready." }
+          ]
+        },
+        {
+          "name": "Facilities",
+          "cards": [
+            { "qty": 4, "name": "Security Outpost", "cost": null, "typeLine": "Facility — Authority", "text": "Exhaust: Generate 1 Authority Energy. If Breach is Critical: Exhaust, pay 1: Suppress 1 target Anomaly." },
+            { "qty": 4, "name": "Research Annex", "cost": null, "typeLine": "Facility — Analysis", "text": "Exhaust: Generate 1 Analysis Energy. Whenever an Anomaly becomes Contained at a Facility you control, you may pay 1; if you do, gain 1 Research." },
+            { "qty": 3, "name": "Standard Containment Cell C-14", "cost": null, "typeLine": "Facility — Containment", "text": "Capacity 2. Exhaust: Generate 1 Authority Energy. Contained Anomalies here have their Released abilities disabled." },
+            { "qty": 2, "name": "Emergency Power Station", "cost": null, "typeLine": "Facility", "text": "Exhaust: Generate 1 Energy. Sacrifice: Ready another Facility; Breach 1." },
+            { "qty": 2, "name": "Central Operations", "cost": null, "typeLine": "Unique Facility — Site", "unique": true, "text": "Exhaust: Generate 1 Authority or Analysis Energy. At your Breach Phase, if Breach is 5+, you may Exhaust this; if you do, Stabilize 1." }
+          ]
+        },
+        {
+          "name": "Equipment",
+          "cards": [
+            { "qty": 2, "name": "Suppression Baton", "cost": 1, "typeLine": "Equipment", "text": "Assigned Personnel gets +1/+0. Whenever it damages an Anomaly, Suppress 1 that Anomaly." },
+            { "qty": 2, "name": "Tactical Body Armor", "cost": 2, "typeLine": "Equipment", "text": "Assigned Personnel gets +0/+2. Reduce the first damage dealt to it each turn by 1." },
+            { "qty": 1, "name": "Portable Containment Rig", "cost": 3, "typeLine": "Equipment", "text": "Assigned Personnel gains: Exhaust, 2 Energy: Contain target Suppressed Threat 1 Anomaly. It does not require a Containment Facility until your next End Phase." },
+            { "qty": 1, "name": "Prototype Nullifier", "cost": 4, "typeLine": "Equipment", "text": "Assigned Personnel gets +1/+1. Anomalies blocking or blocked by it lose their abilities until combat ends." },
+            { "qty": 1, "name": "Black-Level Access Card", "cost": 2, "typeLine": "Unique Equipment", "unique": true, "text": "Assigned Personnel gains Clearance. Once each turn, when you activate a Facility ability, reduce its Energy cost by 1." }
+          ]
+        },
+        {
+          "name": "Protocols",
+          "cards": [
+            { "qty": 3, "name": "Secure the Subject", "cost": 2, "typeLine": "Response", "text": "Suppress 2 target Anomaly. If it is already Suppressed, Exhaust it." },
+            { "qty": 3, "name": "Evidence Collection", "cost": 2, "typeLine": "Protocol", "text": "Gain 2 Research. If you Contained an Anomaly this turn, draw a card." },
+            { "qty": 3, "name": "Stabilize the Site", "cost": 2, "typeLine": "Response", "text": "Stabilize 2. If Breach was Critical before this resolved, restore 1 Stability." },
+            { "qty": 2, "name": "Termination Order", "cost": 4, "typeLine": "Protocol", "text": "Destroy target Personnel or Anomaly. If an Anomaly is destroyed this way instead of being Contained, Breach 1." },
+            { "qty": 2, "name": "Emergency Lockdown", "cost": 4, "typeLine": "Directive", "text": "Anomalies cannot attack the turn they are Released. Whenever an opponent Releases an Anomaly, Stabilize 1." },
+            { "qty": 2, "name": "Reinforcements", "cost": 3, "typeLine": "Response", "text": "Create two 1/1 Security Personnel tokens. If Breach is Critical, create three instead." },
+            { "qty": 2, "name": "Information Blackout", "cost": 2, "typeLine": "Response", "text": "Counter an effect that would increase Breach by 2 or more." },
+            { "qty": 1, "name": "SITE-WIDE LOCKDOWN", "cost": 6, "typeLine": "Protocol — Emergency", "text": "Exhaust every Anomaly. Suppress 1 each. Stabilize 3. Until your next turn, Contained Anomalies cannot be Released." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ruin",
+      "name": "RUIN",
+      "tagline": "RELEASE. EXPLOIT. TRANSCEND.",
+      "colors": { "primary": "#3a0d0d", "accent": "#b23a2f", "paper": "#f1e7e0" },
+      "sections": [
+        {
+          "name": "Personnel",
+          "cards": [
+            { "qty": 4, "name": "Devoted Initiate", "cost": 1, "typeLine": "Personnel — Cultist", "power": 1, "durability": 1, "text": "Sacrifice: Generate 1 Ruin Energy. If Breach is 5+, also Breach 1." },
+            { "qty": 3, "name": "Cult Observer", "cost": 2, "typeLine": "Personnel — Cultist", "power": 2, "durability": 2, "text": "Whenever an Anomaly is Released, gets +1/+1 until end of turn. If it was an opponent's Anomaly, also Breach 1." },
+            { "qty": 2, "name": "Ash Preacher", "cost": 3, "typeLine": "Personnel — Cultist", "power": 3, "durability": 2, "text": "Whenever another Personnel you control is sacrificed, opponent loses 1 Stability." },
+            { "qty": 2, "name": "Breach Saboteur", "cost": 3, "typeLine": "Personnel — Saboteur", "power": 2, "durability": 3, "text": "When deployed, you may Exhaust target Facility. If that Facility contains an Anomaly, Breach 1." },
+            { "qty": 2, "name": "The Herald", "cost": 4, "typeLine": "Personnel — Cult Leader", "power": 3, "durability": 4, "text": "Your Anomalies cost 1 less while Breach is 5+. Critical — Your Anomalies get +1/+0." },
+            { "qty": 1, "name": "Sister Marrow", "cost": 4, "typeLine": "Unique Personnel", "power": 2, "durability": 5, "unique": true, "text": "Whenever you sacrifice another card, gain 1 Research. Once each turn, spend 2 Research: Breach 1." },
+            { "qty": 1, "name": "Father Hollow", "cost": 5, "typeLine": "Unique Personnel", "power": 4, "durability": 4, "unique": true, "text": "Whenever Breach increases, gets +1/+0 until end of turn. If Breach reaches 10, restore to full Durability and Ready him." },
+            { "qty": 1, "name": "The Unnamed Witness", "cost": 6, "typeLine": "Unique Personnel — ???", "power": 3, "durability": 6, "unique": true, "text": "When deployed choose: Containment — Release an Anomaly; Knowledge — Draw two cards; Ruin — Breach 2." }
+          ]
+        },
+        {
+          "name": "Anomalies",
+          "cards": [
+            { "qty": 3, "name": "Escaped Specimen", "cost": 3, "typeLine": "Anomaly — Threat 2", "threat": 2, "power": 3, "durability": 3, "text": "Danger — Gets +2/+1 while Breach is 5+." },
+            { "qty": 3, "name": "The Pale Walker", "cost": 5, "typeLine": "Anomaly — Threat 3", "threat": 3, "power": 4, "durability": 5, "text": "When deployed: Breach 2. Whenever it damages a player: Breach 1. Contain — 3, while Suppressed." },
+            { "qty": 2, "name": "Flesh Mimic", "cost": 3, "typeLine": "Anomaly — Threat 2", "threat": 2, "power": 2, "durability": 2, "text": "When Flesh Mimic destroys Personnel, place a Mimic counter on it. It gets +1/+1 per Mimic counter." },
+            { "qty": 2, "name": "Subject 14", "cost": 4, "typeLine": "Anomaly — Threat 3", "threat": 3, "power": 3, "durability": 4, "text": "Whenever it becomes Suppressed, opponent loses 1 Stability. Released — Remove all Suppression counters and Breach 1." },
+            { "qty": 2, "name": "The Weaver", "cost": 5, "typeLine": "Anomaly — Threat 4", "threat": 4, "power": 4, "durability": 5, "text": "Whenever an opponent draws an additional card, they lose 1 Stability. Critical — whenever they draw any card, The Weaver gets +1/+0 until end of turn." },
+            { "qty": 1, "name": "Hollow Mass", "cost": 6, "typeLine": "Anomaly — Threat 4", "threat": 4, "power": 6, "durability": 6, "text": "Overwhelm. When destroyed, create three 1/1 Aberration Anomaly tokens." },
+            { "qty": 1, "name": "THE THING BELOW", "cost": 7, "typeLine": "Unique Anomaly — Threat 5", "threat": 5, "power": 7, "durability": 7, "unique": true, "text": "Overwhelm. Costs 1 less for each Breach level above 5. Whenever it deals combat damage to a player: Breach 1. Catastrophe — after a Catastrophic Breach, Ready it; it may attack during your next combat even if it already attacked that turn." },
+            { "qty": 1, "name": "Subject ZERO", "cost": 9, "typeLine": "Unique Anomaly — Threat 5", "threat": 5, "power": 8, "durability": 8, "unique": true, "text": "Cannot be played while Breach is below 7. When deployed, Release every other Contained Anomaly. For each released this way, Subject ZERO gets +1/+1." }
+          ]
+        },
+        {
+          "name": "Facilities",
+          "cards": [
+            { "qty": 4, "name": "Abandoned Site", "cost": null, "typeLine": "Facility — Ruin", "text": "Exhaust: Generate 1 Ruin Energy." },
+            { "qty": 3, "name": "Ritual Chamber", "cost": null, "typeLine": "Facility — Ruin", "text": "Exhaust: Generate 1 Ruin Energy. Exhaust, sacrifice Personnel: Breach 1." },
+            { "qty": 2, "name": "Blood Archive", "cost": null, "typeLine": "Facility — Ruin", "text": "Exhaust: Generate 1 Ruin Energy. Whenever you sacrifice a card, you may pay 1 Stability to gain 1 Research." },
+            { "qty": 2, "name": "Compromised Containment Wing", "cost": null, "typeLine": "Facility — Containment", "text": "Capacity 3. Exhaust: Generate 1 Energy. Critical: Contained Anomalies here become vulnerable to escape effects." },
+            { "qty": 2, "name": "Excavation Site 06", "cost": null, "typeLine": "Facility", "text": "Exhaust: Generate 1 Energy. Once each turn when you deploy an Anomaly, you may Breach 1 to reduce its cost by 1." }
+          ]
+        },
+        {
+          "name": "Protocols",
+          "cards": [
+            { "qty": 3, "name": "Unauthorized Experiment", "cost": 2, "typeLine": "Protocol", "text": "Draw two cards. Breach 1." },
+            { "qty": 3, "name": "Open the Cells", "cost": 2, "typeLine": "Response", "text": "Release target Contained Anomaly. Increase Breach by half its Threat, rounded up." },
+            { "qty": 2, "name": "Feed the Void", "cost": 2, "typeLine": "Response", "text": "Additional cost: sacrifice Personnel. Destroy target Personnel with Durability ≤ sacrificed Personnel's Power +2." },
+            { "qty": 2, "name": "Forbidden Knowledge", "cost": 3, "typeLine": "Protocol", "text": "Draw three cards. Lose 2 Stability. Breach 1." },
+            { "qty": 2, "name": "Ritual of Opening", "cost": 4, "typeLine": "Protocol", "text": "Additional cost: Breach 2. Release an Anomaly. It gains Rapid Deployment until end of turn." },
+            { "qty": 2, "name": "Mass Hallucination", "cost": 3, "typeLine": "Response", "text": "Target Personnel cannot attack or block until your next turn. Critical — target all Personnel controlled by one player instead." },
+            { "qty": 1, "name": "Reality Fracture", "cost": 5, "typeLine": "Protocol", "text": "Each player chooses a Personnel, Facility, and Equipment they control. Destroy the rest of those card types they control. Breach 2." },
+            { "qty": 1, "name": "LET THEM OUT", "cost": 7, "typeLine": "Protocol — Catastrophic", "text": "Play only while Breach is 7+. Set Breach to 10. Catastrophic Breach triggers normally. After it resolves, Anomalies you control get +2/+2 and Rapid Deployment until end of turn." }
+          ]
+        }
+      ]
+    }
+  ]
+}

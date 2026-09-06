@@ -1,0 +1,420 @@
+{
+  "decks": {
+    "authority": {
+      "name": "AUTHORITY",
+      "order": [
+        {
+          "slug": "site-security-officer",
+          "name": "Site Security Officer",
+          "qty": 4,
+          "section": "Personnel",
+          "index": 0
+        },
+        {
+          "slug": "containment-specialist",
+          "name": "Containment Specialist",
+          "qty": 3,
+          "section": "Personnel",
+          "index": 1
+        },
+        {
+          "slug": "field-researcher",
+          "name": "Field Researcher",
+          "qty": 3,
+          "section": "Personnel",
+          "index": 2
+        },
+        {
+          "slug": "tactical-response-agent",
+          "name": "Tactical Response Agent",
+          "qty": 2,
+          "section": "Personnel",
+          "index": 3
+        },
+        {
+          "slug": "combat-medic",
+          "name": "Combat Medic",
+          "qty": 2,
+          "section": "Personnel",
+          "index": 4
+        },
+        {
+          "slug": "site-engineer",
+          "name": "Site Engineer",
+          "qty": 2,
+          "section": "Personnel",
+          "index": 5
+        },
+        {
+          "slug": "containment-team-alpha-9",
+          "name": "Containment Team Alpha-9",
+          "qty": 2,
+          "section": "Personnel",
+          "index": 6
+        },
+        {
+          "slug": "director-evelyn-voss",
+          "name": "Director Evelyn Voss",
+          "qty": 1,
+          "section": "Personnel",
+          "index": 7
+        },
+        {
+          "slug": "chief-containment-officer-hale",
+          "name": "Chief Containment Officer Hale",
+          "qty": 1,
+          "section": "Personnel",
+          "index": 8
+        },
+        {
+          "slug": "security-outpost",
+          "name": "Security Outpost",
+          "qty": 4,
+          "section": "Facilities",
+          "index": 9
+        },
+        {
+          "slug": "research-annex",
+          "name": "Research Annex",
+          "qty": 4,
+          "section": "Facilities",
+          "index": 10
+        },
+        {
+          "slug": "standard-containment-cell-c-14",
+          "name": "Standard Containment Cell C-14",
+          "qty": 3,
+          "section": "Facilities",
+          "index": 11
+        },
+        {
+          "slug": "emergency-power-station",
+          "name": "Emergency Power Station",
+          "qty": 2,
+          "section": "Facilities",
+          "index": 12
+        },
+        {
+          "slug": "central-operations",
+          "name": "Central Operations",
+          "qty": 2,
+          "section": "Facilities",
+          "index": 13
+        },
+        {
+          "slug": "suppression-baton",
+          "name": "Suppression Baton",
+          "qty": 2,
+          "section": "Equipment",
+          "index": 14
+        },
+        {
+          "slug": "tactical-body-armor",
+          "name": "Tactical Body Armor",
+          "qty": 2,
+          "section": "Equipment",
+          "index": 15
+        },
+        {
+          "slug": "portable-containment-rig",
+          "name": "Portable Containment Rig",
+          "qty": 1,
+          "section": "Equipment",
+          "index": 16
+        },
+        {
+          "slug": "prototype-nullifier",
+          "name": "Prototype Nullifier",
+          "qty": 1,
+          "section": "Equipment",
+          "index": 17
+        },
+        {
+          "slug": "black-level-access-card",
+          "name": "Black-Level Access Card",
+          "qty": 1,
+          "section": "Equipment",
+          "index": 18
+        },
+        {
+          "slug": "secure-the-subject",
+          "name": "Secure the Subject",
+          "qty": 3,
+          "section": "Protocols",
+          "index": 19
+        },
+        {
+          "slug": "evidence-collection",
+          "name": "Evidence Collection",
+          "qty": 3,
+          "section": "Protocols",
+          "index": 20
+        },
+        {
+          "slug": "stabilize-the-site",
+          "name": "Stabilize the Site",
+          "qty": 3,
+          "section": "Protocols",
+          "index": 21
+        },
+        {
+          "slug": "termination-order",
+          "name": "Termination Order",
+          "qty": 2,
+          "section": "Protocols",
+          "index": 22
+        },
+        {
+          "slug": "emergency-lockdown",
+          "name": "Emergency Lockdown",
+          "qty": 2,
+          "section": "Protocols",
+          "index": 23
+        },
+        {
+          "slug": "reinforcements",
+          "name": "Reinforcements",
+          "qty": 2,
+          "section": "Protocols",
+          "index": 24
+        },
+        {
+          "slug": "information-blackout",
+          "name": "Information Blackout",
+          "qty": 2,
+          "section": "Protocols",
+          "index": 25
+        },
+        {
+          "slug": "site-wide-lockdown",
+          "name": "SITE-WIDE LOCKDOWN",
+          "qty": 1,
+          "section": "Protocols",
+          "index": 26
+        }
+      ],
+      "grid": {
+        "cols": 10,
+        "rows": 3,
+        "count": 27,
+        "file": "assets/sheets/authority-sheet.png"
+      },
+      "back_file": "assets/sheets/authority-back.png"
+    },
+    "ruin": {
+      "name": "RUIN",
+      "order": [
+        {
+          "slug": "devoted-initiate",
+          "name": "Devoted Initiate",
+          "qty": 4,
+          "section": "Personnel",
+          "index": 0
+        },
+        {
+          "slug": "cult-observer",
+          "name": "Cult Observer",
+          "qty": 3,
+          "section": "Personnel",
+          "index": 1
+        },
+        {
+          "slug": "ash-preacher",
+          "name": "Ash Preacher",
+          "qty": 2,
+          "section": "Personnel",
+          "index": 2
+        },
+        {
+          "slug": "breach-saboteur",
+          "name": "Breach Saboteur",
+          "qty": 2,
+          "section": "Personnel",
+          "index": 3
+        },
+        {
+          "slug": "the-herald",
+          "name": "The Herald",
+          "qty": 2,
+          "section": "Personnel",
+          "index": 4
+        },
+        {
+          "slug": "sister-marrow",
+          "name": "Sister Marrow",
+          "qty": 1,
+          "section": "Personnel",
+          "index": 5
+        },
+        {
+          "slug": "father-hollow",
+          "name": "Father Hollow",
+          "qty": 1,
+          "section": "Personnel",
+          "index": 6
+        },
+        {
+          "slug": "the-unnamed-witness",
+          "name": "The Unnamed Witness",
+          "qty": 1,
+          "section": "Personnel",
+          "index": 7
+        },
+        {
+          "slug": "escaped-specimen",
+          "name": "Escaped Specimen",
+          "qty": 3,
+          "section": "Anomalies",
+          "index": 8
+        },
+        {
+          "slug": "the-pale-walker",
+          "name": "The Pale Walker",
+          "qty": 3,
+          "section": "Anomalies",
+          "index": 9
+        },
+        {
+          "slug": "flesh-mimic",
+          "name": "Flesh Mimic",
+          "qty": 2,
+          "section": "Anomalies",
+          "index": 10
+        },
+        {
+          "slug": "subject-14",
+          "name": "Subject 14",
+          "qty": 2,
+          "section": "Anomalies",
+          "index": 11
+        },
+        {
+          "slug": "the-weaver",
+          "name": "The Weaver",
+          "qty": 2,
+          "section": "Anomalies",
+          "index": 12
+        },
+        {
+          "slug": "hollow-mass",
+          "name": "Hollow Mass",
+          "qty": 1,
+          "section": "Anomalies",
+          "index": 13
+        },
+        {
+          "slug": "the-thing-below",
+          "name": "THE THING BELOW",
+          "qty": 1,
+          "section": "Anomalies",
+          "index": 14
+        },
+        {
+          "slug": "subject-zero",
+          "name": "Subject ZERO",
+          "qty": 1,
+          "section": "Anomalies",
+          "index": 15
+        },
+        {
+          "slug": "abandoned-site",
+          "name": "Abandoned Site",
+          "qty": 4,
+          "section": "Facilities",
+          "index": 16
+        },
+        {
+          "slug": "ritual-chamber",
+          "name": "Ritual Chamber",
+          "qty": 3,
+          "section": "Facilities",
+          "index": 17
+        },
+        {
+          "slug": "blood-archive",
+          "name": "Blood Archive",
+          "qty": 2,
+          "section": "Facilities",
+          "index": 18
+        },
+        {
+          "slug": "compromised-containment-wing",
+          "name": "Compromised Containment Wing",
+          "qty": 2,
+          "section": "Facilities",
+          "index": 19
+        },
+        {
+          "slug": "excavation-site-06",
+          "name": "Excavation Site 06",
+          "qty": 2,
+          "section": "Facilities",
+          "index": 20
+        },
+        {
+          "slug": "unauthorized-experiment",
+          "name": "Unauthorized Experiment",
+          "qty": 3,
+          "section": "Protocols",
+          "index": 21
+        },
+        {
+          "slug": "open-the-cells",
+          "name": "Open the Cells",
+          "qty": 3,
+          "section": "Protocols",
+          "index": 22
+        },
+        {
+          "slug": "feed-the-void",
+          "name": "Feed the Void",
+          "qty": 2,
+          "section": "Protocols",
+          "index": 23
+        },
+        {
+          "slug": "forbidden-knowledge",
+          "name": "Forbidden Knowledge",
+          "qty": 2,
+          "section": "Protocols",
+          "index": 24
+        },
+        {
+          "slug": "ritual-of-opening",
+          "name": "Ritual of Opening",
+          "qty": 2,
+          "section": "Protocols",
+          "index": 25
+        },
+        {
+          "slug": "mass-hallucination",
+          "name": "Mass Hallucination",
+          "qty": 2,
+          "section": "Protocols",
+          "index": 26
+        },
+        {
+          "slug": "reality-fracture",
+          "name": "Reality Fracture",
+          "qty": 1,
+          "section": "Protocols",
+          "index": 27
+        },
+        {
+          "slug": "let-them-out",
+          "name": "LET THEM OUT",
+          "qty": 1,
+          "section": "Protocols",
+          "index": 28
+        }
+      ],
+      "grid": {
+        "cols": 10,
+        "rows": 3,
+        "count": 29,
+        "file": "assets/sheets/ruin-sheet.png"
+      },
+      "back_file": "assets/sheets/ruin-back.png"
+    }
+  }
+}

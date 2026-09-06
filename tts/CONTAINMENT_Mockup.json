@@ -1,0 +1,3945 @@
+{
+  "SaveName": "CONTAINMENT - Authority vs Ruin Mockup",
+  "GameMode": "",
+  "Date": "2026-09-06T14:17:50.095110+00:00",
+  "Table": "Table_Poker",
+  "TableURL": "",
+  "Sky": "",
+  "SkyURL": "",
+  "Note": "CONTAINMENT starter-deck mockup. See docs/TTS_SETUP.md before loading.",
+  "Rules": "",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "XmlUI": "",
+  "CustomUIAssets": [],
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "ObjectStates": [
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": 0,
+        "posY": 1,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 38,
+        "scaleY": 1,
+        "scaleZ": 24.85
+      },
+      "Nickname": "Playmat - Breach Track",
+      "Description": "",
+      "GUID": "2488fb",
+      "Locked": true,
+      "CustomImage": {
+        "ImageURL": "REPLACE_ME_PLAYMAT_URL",
+        "ImageSecondaryURL": "",
+        "WidthScale": 0
+      }
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": -11,
+        "posY": 1.5,
+        "posZ": 11,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "AUTHORITY Deck",
+      "Description": "",
+      "GUID": "8e6cc7",
+      "DeckIDs": [
+        100,
+        100,
+        100,
+        100,
+        101,
+        101,
+        101,
+        102,
+        102,
+        102,
+        103,
+        103,
+        104,
+        104,
+        105,
+        105,
+        106,
+        106,
+        107,
+        108,
+        109,
+        109,
+        109,
+        109,
+        110,
+        110,
+        110,
+        110,
+        111,
+        111,
+        111,
+        112,
+        112,
+        113,
+        113,
+        114,
+        114,
+        115,
+        115,
+        116,
+        117,
+        118,
+        119,
+        119,
+        119,
+        120,
+        120,
+        120,
+        121,
+        121,
+        121,
+        122,
+        122,
+        123,
+        123,
+        124,
+        124,
+        125,
+        125,
+        126
+      ],
+      "CustomDeck": {
+        "1": {
+          "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+          "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+          "NumWidth": 10,
+          "NumHeight": 3,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Site Security Officer",
+          "Description": "",
+          "GUID": "ff9955",
+          "CardID": 100,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Site Security Officer",
+          "Description": "",
+          "GUID": "a83a6a",
+          "CardID": 100,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Site Security Officer",
+          "Description": "",
+          "GUID": "7f599a",
+          "CardID": 100,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Site Security Officer",
+          "Description": "",
+          "GUID": "c468d9",
+          "CardID": 100,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Containment Specialist",
+          "Description": "",
+          "GUID": "501645",
+          "CardID": 101,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Containment Specialist",
+          "Description": "",
+          "GUID": "8c9562",
+          "CardID": 101,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Containment Specialist",
+          "Description": "",
+          "GUID": "b0b529",
+          "CardID": 101,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Field Researcher",
+          "Description": "",
+          "GUID": "429904",
+          "CardID": 102,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Field Researcher",
+          "Description": "",
+          "GUID": "5975ed",
+          "CardID": 102,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Field Researcher",
+          "Description": "",
+          "GUID": "42f1ef",
+          "CardID": 102,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Tactical Response Agent",
+          "Description": "",
+          "GUID": "d748a4",
+          "CardID": 103,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Tactical Response Agent",
+          "Description": "",
+          "GUID": "f86198",
+          "CardID": 103,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Combat Medic",
+          "Description": "",
+          "GUID": "90737f",
+          "CardID": 104,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Combat Medic",
+          "Description": "",
+          "GUID": "75078e",
+          "CardID": 104,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Site Engineer",
+          "Description": "",
+          "GUID": "0e3f62",
+          "CardID": 105,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Site Engineer",
+          "Description": "",
+          "GUID": "bc5615",
+          "CardID": 105,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Containment Team Alpha-9",
+          "Description": "",
+          "GUID": "7ebdd6",
+          "CardID": 106,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Containment Team Alpha-9",
+          "Description": "",
+          "GUID": "66c8d9",
+          "CardID": 106,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Director Evelyn Voss",
+          "Description": "",
+          "GUID": "d4045a",
+          "CardID": 107,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Chief Containment Officer Hale",
+          "Description": "",
+          "GUID": "b3ed51",
+          "CardID": 108,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Security Outpost",
+          "Description": "",
+          "GUID": "80c321",
+          "CardID": 109,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Security Outpost",
+          "Description": "",
+          "GUID": "885f16",
+          "CardID": 109,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Security Outpost",
+          "Description": "",
+          "GUID": "2ee421",
+          "CardID": 109,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Security Outpost",
+          "Description": "",
+          "GUID": "77bf73",
+          "CardID": 109,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Research Annex",
+          "Description": "",
+          "GUID": "c31db6",
+          "CardID": 110,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Research Annex",
+          "Description": "",
+          "GUID": "599669",
+          "CardID": 110,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Research Annex",
+          "Description": "",
+          "GUID": "006f3e",
+          "CardID": 110,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Research Annex",
+          "Description": "",
+          "GUID": "cb29d2",
+          "CardID": 110,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Standard Containment Cell C-14",
+          "Description": "",
+          "GUID": "2334d2",
+          "CardID": 111,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Standard Containment Cell C-14",
+          "Description": "",
+          "GUID": "6d09cd",
+          "CardID": 111,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Standard Containment Cell C-14",
+          "Description": "",
+          "GUID": "851cae",
+          "CardID": 111,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Emergency Power Station",
+          "Description": "",
+          "GUID": "d9b9cb",
+          "CardID": 112,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Emergency Power Station",
+          "Description": "",
+          "GUID": "314b75",
+          "CardID": 112,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Central Operations",
+          "Description": "",
+          "GUID": "fc40d0",
+          "CardID": 113,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Central Operations",
+          "Description": "",
+          "GUID": "c4253a",
+          "CardID": 113,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Suppression Baton",
+          "Description": "",
+          "GUID": "e573ec",
+          "CardID": 114,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Suppression Baton",
+          "Description": "",
+          "GUID": "8cd59f",
+          "CardID": 114,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Tactical Body Armor",
+          "Description": "",
+          "GUID": "5aab10",
+          "CardID": 115,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Tactical Body Armor",
+          "Description": "",
+          "GUID": "2af176",
+          "CardID": 115,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Portable Containment Rig",
+          "Description": "",
+          "GUID": "4b50e5",
+          "CardID": 116,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Prototype Nullifier",
+          "Description": "",
+          "GUID": "7481ae",
+          "CardID": 117,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Black-Level Access Card",
+          "Description": "",
+          "GUID": "f24924",
+          "CardID": 118,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Secure the Subject",
+          "Description": "",
+          "GUID": "1705b9",
+          "CardID": 119,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Secure the Subject",
+          "Description": "",
+          "GUID": "684332",
+          "CardID": 119,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Secure the Subject",
+          "Description": "",
+          "GUID": "a8952a",
+          "CardID": 119,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Evidence Collection",
+          "Description": "",
+          "GUID": "42a95f",
+          "CardID": 120,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Evidence Collection",
+          "Description": "",
+          "GUID": "61bb3f",
+          "CardID": 120,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Evidence Collection",
+          "Description": "",
+          "GUID": "745687",
+          "CardID": 120,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Stabilize the Site",
+          "Description": "",
+          "GUID": "4fa4e6",
+          "CardID": 121,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Stabilize the Site",
+          "Description": "",
+          "GUID": "32874e",
+          "CardID": 121,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Stabilize the Site",
+          "Description": "",
+          "GUID": "14481c",
+          "CardID": 121,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Termination Order",
+          "Description": "",
+          "GUID": "91ad92",
+          "CardID": 122,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Termination Order",
+          "Description": "",
+          "GUID": "4def58",
+          "CardID": 122,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Emergency Lockdown",
+          "Description": "",
+          "GUID": "9454e7",
+          "CardID": 123,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Emergency Lockdown",
+          "Description": "",
+          "GUID": "34df6a",
+          "CardID": 123,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Reinforcements",
+          "Description": "",
+          "GUID": "0c8869",
+          "CardID": 124,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Reinforcements",
+          "Description": "",
+          "GUID": "72655c",
+          "CardID": 124,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Information Blackout",
+          "Description": "",
+          "GUID": "b1f59c",
+          "CardID": 125,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Information Blackout",
+          "Description": "",
+          "GUID": "312e9e",
+          "CardID": 125,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -11,
+            "posY": 1,
+            "posZ": 11,
+            "rotX": 0,
+            "rotY": 180,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "SITE-WIDE LOCKDOWN",
+          "Description": "",
+          "GUID": "b40ecc",
+          "CardID": 126,
+          "CustomDeck": {
+            "1": {
+              "FaceURL": "REPLACE_ME_AUTHORITY_SHEET_URL",
+              "BackURL": "REPLACE_ME_AUTHORITY_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        }
+      ]
+    },
+    {
+      "Name": "DeckCustom",
+      "Transform": {
+        "posX": 11,
+        "posY": 1.5,
+        "posZ": -11,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "RUIN Deck",
+      "Description": "",
+      "GUID": "8385a0",
+      "DeckIDs": [
+        200,
+        200,
+        200,
+        200,
+        201,
+        201,
+        201,
+        202,
+        202,
+        203,
+        203,
+        204,
+        204,
+        205,
+        206,
+        207,
+        208,
+        208,
+        208,
+        209,
+        209,
+        209,
+        210,
+        210,
+        211,
+        211,
+        212,
+        212,
+        213,
+        214,
+        215,
+        216,
+        216,
+        216,
+        216,
+        217,
+        217,
+        217,
+        218,
+        218,
+        219,
+        219,
+        220,
+        220,
+        221,
+        221,
+        221,
+        222,
+        222,
+        222,
+        223,
+        223,
+        224,
+        224,
+        225,
+        225,
+        226,
+        226,
+        227,
+        228
+      ],
+      "CustomDeck": {
+        "2": {
+          "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+          "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+          "NumWidth": 10,
+          "NumHeight": 3,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Devoted Initiate",
+          "Description": "",
+          "GUID": "8f05d3",
+          "CardID": 200,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Devoted Initiate",
+          "Description": "",
+          "GUID": "19dba4",
+          "CardID": 200,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Devoted Initiate",
+          "Description": "",
+          "GUID": "6d8dda",
+          "CardID": 200,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Devoted Initiate",
+          "Description": "",
+          "GUID": "24ba7a",
+          "CardID": 200,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Cult Observer",
+          "Description": "",
+          "GUID": "fb6812",
+          "CardID": 201,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Cult Observer",
+          "Description": "",
+          "GUID": "3f4e7f",
+          "CardID": 201,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Cult Observer",
+          "Description": "",
+          "GUID": "5e7c9f",
+          "CardID": 201,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Ash Preacher",
+          "Description": "",
+          "GUID": "be1693",
+          "CardID": 202,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Ash Preacher",
+          "Description": "",
+          "GUID": "ac2077",
+          "CardID": 202,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Breach Saboteur",
+          "Description": "",
+          "GUID": "e389d6",
+          "CardID": 203,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Breach Saboteur",
+          "Description": "",
+          "GUID": "d2af0b",
+          "CardID": 203,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "The Herald",
+          "Description": "",
+          "GUID": "ea556c",
+          "CardID": 204,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "The Herald",
+          "Description": "",
+          "GUID": "8dec63",
+          "CardID": 204,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Sister Marrow",
+          "Description": "",
+          "GUID": "d35169",
+          "CardID": 205,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Father Hollow",
+          "Description": "",
+          "GUID": "a65db3",
+          "CardID": 206,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "The Unnamed Witness",
+          "Description": "",
+          "GUID": "47b4fa",
+          "CardID": 207,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Escaped Specimen",
+          "Description": "",
+          "GUID": "d666bd",
+          "CardID": 208,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Escaped Specimen",
+          "Description": "",
+          "GUID": "64da56",
+          "CardID": 208,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Escaped Specimen",
+          "Description": "",
+          "GUID": "ed812c",
+          "CardID": 208,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "The Pale Walker",
+          "Description": "",
+          "GUID": "a9b44e",
+          "CardID": 209,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "The Pale Walker",
+          "Description": "",
+          "GUID": "a58161",
+          "CardID": 209,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "The Pale Walker",
+          "Description": "",
+          "GUID": "25f67c",
+          "CardID": 209,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Flesh Mimic",
+          "Description": "",
+          "GUID": "c6562f",
+          "CardID": 210,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Flesh Mimic",
+          "Description": "",
+          "GUID": "08665d",
+          "CardID": 210,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Subject 14",
+          "Description": "",
+          "GUID": "875a52",
+          "CardID": 211,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Subject 14",
+          "Description": "",
+          "GUID": "bdf2b2",
+          "CardID": 211,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "The Weaver",
+          "Description": "",
+          "GUID": "81ffc3",
+          "CardID": 212,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "The Weaver",
+          "Description": "",
+          "GUID": "b457a9",
+          "CardID": 212,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Hollow Mass",
+          "Description": "",
+          "GUID": "a466d2",
+          "CardID": 213,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "THE THING BELOW",
+          "Description": "",
+          "GUID": "7ac867",
+          "CardID": 214,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Subject ZERO",
+          "Description": "",
+          "GUID": "5a1945",
+          "CardID": 215,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Abandoned Site",
+          "Description": "",
+          "GUID": "8624b5",
+          "CardID": 216,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Abandoned Site",
+          "Description": "",
+          "GUID": "676e92",
+          "CardID": 216,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Abandoned Site",
+          "Description": "",
+          "GUID": "4451f7",
+          "CardID": 216,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Abandoned Site",
+          "Description": "",
+          "GUID": "69772c",
+          "CardID": 216,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Ritual Chamber",
+          "Description": "",
+          "GUID": "f22273",
+          "CardID": 217,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Ritual Chamber",
+          "Description": "",
+          "GUID": "9fa35a",
+          "CardID": 217,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Ritual Chamber",
+          "Description": "",
+          "GUID": "b02a2b",
+          "CardID": 217,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Blood Archive",
+          "Description": "",
+          "GUID": "cbae05",
+          "CardID": 218,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Blood Archive",
+          "Description": "",
+          "GUID": "a616bf",
+          "CardID": 218,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Compromised Containment Wing",
+          "Description": "",
+          "GUID": "bae4ae",
+          "CardID": 219,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Compromised Containment Wing",
+          "Description": "",
+          "GUID": "b36072",
+          "CardID": 219,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Excavation Site 06",
+          "Description": "",
+          "GUID": "996ab4",
+          "CardID": 220,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Excavation Site 06",
+          "Description": "",
+          "GUID": "ec2725",
+          "CardID": 220,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Unauthorized Experiment",
+          "Description": "",
+          "GUID": "4c6afc",
+          "CardID": 221,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Unauthorized Experiment",
+          "Description": "",
+          "GUID": "4ed011",
+          "CardID": 221,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Unauthorized Experiment",
+          "Description": "",
+          "GUID": "4a6604",
+          "CardID": 221,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Open the Cells",
+          "Description": "",
+          "GUID": "c83005",
+          "CardID": 222,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Open the Cells",
+          "Description": "",
+          "GUID": "44e62a",
+          "CardID": 222,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Open the Cells",
+          "Description": "",
+          "GUID": "b32803",
+          "CardID": 222,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Feed the Void",
+          "Description": "",
+          "GUID": "1543ac",
+          "CardID": 223,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Feed the Void",
+          "Description": "",
+          "GUID": "499890",
+          "CardID": 223,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Forbidden Knowledge",
+          "Description": "",
+          "GUID": "af53e9",
+          "CardID": 224,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Forbidden Knowledge",
+          "Description": "",
+          "GUID": "f686d3",
+          "CardID": 224,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Ritual of Opening",
+          "Description": "",
+          "GUID": "9dd7e2",
+          "CardID": 225,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Ritual of Opening",
+          "Description": "",
+          "GUID": "8140d6",
+          "CardID": 225,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Mass Hallucination",
+          "Description": "",
+          "GUID": "2052f1",
+          "CardID": 226,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Mass Hallucination",
+          "Description": "",
+          "GUID": "a1b6bb",
+          "CardID": 226,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "Reality Fracture",
+          "Description": "",
+          "GUID": "ce742d",
+          "CardID": 227,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": 11,
+            "posY": 1,
+            "posZ": -11,
+            "rotX": 0,
+            "rotY": 0,
+            "rotZ": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "scaleZ": 1
+          },
+          "Nickname": "LET THEM OUT",
+          "Description": "",
+          "GUID": "9dcdb1",
+          "CardID": 228,
+          "CustomDeck": {
+            "2": {
+              "FaceURL": "REPLACE_ME_RUIN_SHEET_URL",
+              "BackURL": "REPLACE_ME_RUIN_BACK_URL",
+              "NumWidth": 10,
+              "NumHeight": 3,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "SidewaysCard": false
+        }
+      ]
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": 0,
+        "posY": 3,
+        "posZ": 16,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "CONTAINMENT - Quick Reference",
+      "Description": "CONTAINMENT -- Quick Reference (v0.1 prototype)\n\nDeck size: 60+ cards (these starters are exactly 60). Max 4 copies of a card name, except Basic Facilities.\nStart: 20 Stability, 7-card opening hand, Breach 0, max hand size 7.\n\nTurn order: Refresh -> Breach -> Draw -> Main -> Combat -> Second Main -> End.\n\nBreach Track (0-10, shared): 0-2 Stable | 3-4 Unstable | 5-6 Danger | 7-9 Critical | 10 Catastrophic Breach.\nCatastrophic Breach (at 10): each player loses 2 Stability, all Contained Anomalies are Released, each player Exhausts one Ready Facility, then Breach resets to 5.\n\nResources: normally deploy one Facility per turn. Facilities generate Energy. Research is a persistent secondary resource.\nSignature systems: Breach Track, Suppression, Containment/Release, Threat ratings, Research.\n\nAuthority (Control/Midrange): Secure. Contain. Preserve.\nRuin (Aggressive Risk/Release): Release. Exploit. Transcend.\n\nCompetitive side deck: 15 cards. This is a design prototype -- costs, wording and quantities are subject to playtesting.",
+      "GUID": "b7297a"
+    },
+    {
+      "Name": "Counter",
+      "Transform": {
+        "posX": -16,
+        "posY": 1.5,
+        "posZ": 6,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Authority Stability (start 20)",
+      "Description": "",
+      "GUID": "44dcde",
+      "Counter": {
+        "value": 20
+      }
+    },
+    {
+      "Name": "Counter",
+      "Transform": {
+        "posX": 16,
+        "posY": 1.5,
+        "posZ": -6,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Ruin Stability (start 20)",
+      "Description": "",
+      "GUID": "d3710c",
+      "Counter": {
+        "value": 20
+      }
+    },
+    {
+      "Name": "Counter",
+      "Transform": {
+        "posX": -16,
+        "posY": 1.5,
+        "posZ": 3,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Authority Research",
+      "Description": "",
+      "GUID": "53fa0b",
+      "Counter": {
+        "value": 0
+      }
+    },
+    {
+      "Name": "Counter",
+      "Transform": {
+        "posX": 16,
+        "posY": 1.5,
+        "posZ": -3,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Ruin Research",
+      "Description": "",
+      "GUID": "b57d3a",
+      "Counter": {
+        "value": 0
+      }
+    },
+    {
+      "Name": "Counter",
+      "Transform": {
+        "posX": 0,
+        "posY": 1.5,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Breach Track",
+      "Description": "",
+      "GUID": "b884fb",
+      "Counter": {
+        "value": 0
+      }
+    }
+  ],
+  "TabStates": {},
+  "VersionNumber": ""
+}
