@@ -46,19 +46,22 @@ html, body { width:%(w)dpx; height:%(h)dpx; background:#0b0b0d; overflow:hidden;
 
 h1.title { font-size:56px; font-weight:900; letter-spacing:1px; color:#f4f1ea;
   text-transform:uppercase; margin-bottom:8px; line-height:1.05; }
-p.lede { font-size:19px; line-height:1.55; color:#c9c6bd; max-width:1050px; margin-bottom:22px; }
-p.body { font-size:16.5px; line-height:1.62; color:#c9c6bd; margin-bottom:16px; max-width:1050px; }
+p.lede { font-size:19px; line-height:1.55; color:#c9c6bd; max-width:1050px; margin-bottom:22px;
+  overflow-wrap:break-word; word-break:break-word; }
+p.body { font-size:16.5px; line-height:1.62; color:#c9c6bd; margin-bottom:16px; max-width:1050px;
+  overflow-wrap:break-word; word-break:break-word; }
 .panel { background:#141416; border:1px solid #2a2a2e; border-radius:6px; padding:22px 26px;
   margin-bottom:18px; }
 .panel.note { border-color:%(accent)s55; background:%(accent)s14; }
 .panel .kicker { font-size:12px; letter-spacing:3px; color:%(accent)s; font-weight:bold;
   text-transform:uppercase; margin-bottom:8px; }
-.panel p { font-size:15px; line-height:1.55; color:#d6d3ca; }
+.panel p { font-size:15px; line-height:1.55; color:#d6d3ca; overflow-wrap:break-word; word-break:break-word; }
 
 table.ref { width:100%%; border-collapse:collapse; margin-bottom:20px; }
 table.ref th { text-align:left; font-size:12.5px; letter-spacing:2px; text-transform:uppercase;
   color:#0b0b0d; background:%(accent)s; padding:10px 14px; }
-table.ref td { font-size:15px; color:#d6d3ca; padding:10px 14px; border-bottom:1px solid #232326; }
+table.ref td { font-size:15px; color:#d6d3ca; padding:10px 14px; border-bottom:1px solid #232326;
+  overflow-wrap:break-word; word-break:break-word; }
 table.ref tr:nth-child(even) td { background:#141416; }
 
 .crest { width:64px; height:64px; }
